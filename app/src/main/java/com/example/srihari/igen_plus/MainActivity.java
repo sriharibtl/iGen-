@@ -27,6 +27,9 @@ public class MainActivity extends ActionBarActivity {
         g2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+
+
+
                 Intent intent = new Intent(MainActivity.this, MainActivity2Activity.class);
                 startActivity(intent);
             }
